@@ -1,0 +1,175 @@
+body {
+   margin: 0 auto;
+   background: white;
+   background-image: url('./res/bg/pipes.png');
+}
+
+#bg {
+   border: 1px solid transparent;
+   width: 400px;
+   height: 200px;
+   margin: auto;
+   margin-top: 2vh;
+   box-shadow: 11px 10px 73px -19px rgba(89, 89, 89, 1);
+}
+
+[shadow] {
+   text-shadow: -1px -1px 1px rgba(255, 255, 255, .1),
+      1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+[link] {
+   cursor: pointer;
+   color: rgb(28, 160, 248);
+   font-weight: bold;
+   transition: 250ms;
+   border-bottom: 1px dashed transparent;
+}
+
+[link]:hover {
+   border-bottom: 1px dashed rgb(28, 160, 248);
+}
+
+#text {
+   position: relative;
+   height: 100px;
+   width: 100%;
+   text-align: center;
+   font-size: 2.4em;
+   font-family: 'consolas', monospace;
+   font-weight: bold;
+
+   margin: auto;
+   margin-top: 75px;
+}
+
+.wrapper {
+   width: 400px;
+   margin: auto;
+   box-shadow: 11px 10px 73px -19px rgba(89, 89, 89, 1);
+   background: #fff;
+}
+
+button {
+   width: 195px;
+   height: 45px;
+   margin: 2.5px;
+
+   font-family: sans-serif;
+   font-size: 1em;
+
+   transition: 500ms;
+   border: 1px solid #ddd;
+   color: #444;
+   cursor: pointer;
+   background: #fff;
+   border-radius: 3px;
+
+   box-shadow: 0px 0px 73px -19px rgba(89, 89, 89, .1);
+}
+
+button.get:hover {
+   box-shadow: 0px 0px 0px 2px rgb(32, 147, 255);
+   color: rgb(32, 147, 255);
+   background: rgb(234, 242, 250);
+   border: 1px solid transparent;
+   font-size: 1.2em;
+}
+
+button.train:hover {
+   box-shadow: 0px 0px 0px 2px rgb(255, 133, 19);
+   color: rgb(255, 133, 19);
+   background: rgb(255, 242, 230);
+   border: 1px solid transparent;
+   font-size: 1.2em;
+}
+
+*:focus {
+   outline: none;
+}
+
+.swal2-container {
+   font-family: sans-serif;
+}
+
+.swal2-confirm {
+   text-align: center;
+}
+
+#log {
+   position: fixed;
+   bottom: 0px;
+
+   width: 1000px;
+   height: 200px;
+   text-indent: 10px;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   margin: auto;
+   background: rgba(255, 255, 255, .3);
+
+   overflow-x: hidden;
+   overflow-y: auto;
+
+   font-family: 'consolas', monospace;
+   font-size: .8em;
+
+   box-shadow: 11px -10px 73px -19px rgba(89, 89, 89, .5);
+   transition: 1s ease;
+}
+
+[reset-wrapper] {
+   position: fixed;
+   bottom: 220px;
+   right: 5px;
+   width: 195px;
+   z-index: 10;
+
+   transition: 1s ease;
+}
+
+button.reset {
+   width: 95px;
+   box-shadow: 11px 10px 73px -19px rgba(89, 89, 89, 1);
+   font-size: .8em;
+}
+
+button.reset:hover {
+   box-shadow: 0px 0px 0px 2px rgb(255, 19, 19);
+   color: rgb(255, 19, 19);
+   background: rgb(255, 230, 230);
+   border: 1px solid transparent;
+   font-size: 1em;
+}
+
+button.hide {
+   width: 90px;
+   box-shadow: 11px 10px 73px -19px rgba(89, 89, 89, 1);
+   font-size: .8em;
+}
+
+button.hide:hover {
+   box-shadow: 0px 0px 0px 2px rgb(87, 207, 93);
+   color: rgb(87, 207, 93);
+   background: rgb(226, 250, 229);
+   border: 1px solid transparent;
+   font-size: 1em;
+}
+
+[prc] {
+   font-family: 'Consolas', monospace,
+      monospace;
+   font-size: 1.4em;
+}
+
+* [success] {
+   color: #22aa22;
+}
+
+* [err] {
+   color: #ff7777;
+}
+
+* [info] {
+   color: #77bdff;
+}

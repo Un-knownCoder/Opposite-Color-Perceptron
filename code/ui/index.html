@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <title>Neural Network - Opposite Color Finder - [Aldrigo, Coradin, Sclifos, Vettori]</title>
+
+   <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="setup(27)">
+
+   <div id="bg">
+      <p id="text">rgb(0, 0, 0)</p>
+   </div>
+
+   <div class="wrapper">
+      <button onclick="trainAlert()" class="train">Train</button><button onclick="getNewData()" class="get">Generate</button>
+   </div>
+
+   <div id="reset-wr" reset-wrapper>
+      <button class="reset" onclick="resetConsole()">Clear Console</button><button class="hide" onclick="toggleLog()">Show Console</button>
+   </div>
+
+   <div id="log">
+      <div class="row train">
+         New <strong info>Perceptron</strong> created with <strong success>3</strong> input neurons, <strong success>27</strong> hidden neurons and <strong success>3</strong> output neurons 
+      </div>
+
+      <div style="color: rgba(50, 50, 50, .5)">
+         // Click GENERATE to predict a new color!
+      </div>
+   </div>
+
+   <script src="./script/lib/neuralnetwork.js"></script>
+   <script src="./script/lib/matrix.js"></script>
+   <script src="./script/main.js"></script>
+</body>
+
+</html>
