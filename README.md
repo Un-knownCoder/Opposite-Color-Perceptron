@@ -14,7 +14,7 @@ This is a simple Neural Network (Perceptron) that can be used to calculate the o
 > npm i electron --save-dev
 > npm i swal2 --save-dev
 > ```
-> - [x] Now save the files in the project folder *(opposite-color-perceptron)*
+> - [x] Now save the files (from the **`./code`** folder) in the project directory *(opposite-color-perceptron)*<br>**Warning:** you need to see the **`./ui`** folder next to the **`./node-modules`** folder
 >
 
 > ### Usage
