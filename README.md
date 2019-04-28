@@ -20,7 +20,7 @@ This is a simple Neural Network (Perceptron) that can be used to calculate the o
 > ### Usage
 > Since the program isn't compiled, you need to run it through the **command prompt**
 > ```batch
-> cd [path-to-the-folder] (i.e. .../opposite-color-perceptron)
+> cd <path-to-the-folder> (i.e. .../opposite-color-perceptron)
 > npm run neural-network
 > ```
 
